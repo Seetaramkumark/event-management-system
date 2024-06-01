@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Title</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="css/style.css">
+<style>
+ @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;600;700&display=swap');
+
+body{
+    background: #222;
+}
+.content h3{
+    font-size: 3.5rem;
+    color:#fff;
+}
+
+.gallery .box-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(27rem, 1fr));
+    gap:1.5rem;
+}
+
+.gallery .box-container .box{
+    position: relative;
+    border:1rem solid #333;
+    border-radius: .5rem;
+    height: 25rem;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.gallery .box-container .box img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.gallery .box-container .box:hover img{
+    transform: scale(1.1);
+    filter: grayscale();
+}
+
+.gallery .box-container .box .title{
+    position: absolute;
+    top:-10rem; left:0; right: 0;
+    background:#333;
+    color:#fff;
+    text-align: center;
+    padding-bottom: 1rem;
+    font-size: 2rem;
+}
+
+.gallery .box-container .box:hover .title{
+    top:0;
+}
+
+.gallery .box-container .box .icons{
+    position: absolute;
+    bottom:-10rem; left:0; right: 0;
+    background:#333;
+    padding-top: 1rem;
+    text-align: center;
+}
+
+.gallery .box-container .box:hover .icons{
+    bottom: 0;
+}
+
+.gallery .box-container .box .icons a{
+    font-size: 2rem;
+    margin:.5rem 1rem;
+    color:#fff;
+}
+
+.gallery .box-container .box .icons a:hover{
+    color:var(--main-color);
+}
+
+</style>
+
+</head>
+<body>
+
+<section class="gallery" id="gallery">
+    <div class="content" align="center">
+      <marquee><h3>we will give a very special celebration for you</h3></marquee>
+    </div>
+    <br>
+
+
+       <div class="box-container">
+
+
+         <div class="box">
+             <a href="djconcerts">
+            <img src="../static/images/g-1.jpg/." alt="">
+            <h3 class="title">DjConcert Events</h3>
+            <div class="icons">
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-share"></a>
+                <a href="#" class="fas fa-eye"></a>
+            </div>
+                 </a>
+        </div>
+
+
+        <div class="box">
+            <a href="djconcerts">
+            <img src="../static/images/g-2.jpg/." alt="">
+            <h3 class="title">Engagement Events</h3>
+            <div class="icons">
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-share"></a>
+                <a href="#" class="fas fa-eye"></a>
+            </div>
+            </a>
+        </div>
+
+        <div class="box">
+            <a href="djconcerts">
+            <img src="../static/images/g-3.jpg/." alt="">
+            <h3 class="title">Holiday Events</h3>
+            <div class="icons">
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-share"></a>
+                <a href="#" class="fas fa-eye"></a>
+            </div>
+            </a>
+        </div>
+
+        <div class="box">
+            <a href="djconcerts">
+            <img src="../static/images/g-4.jpg/." alt="">
+            <h3 class="title">Birthday Events</h3>
+            <div class="icons">
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-share"></a>
+                <a href="#" class="fas fa-eye"></a>
+            </div>
+            </a>
+        </div>
+
+        <div class="box">
+            <a href="djconcerts">
+            <img src="../static/images/g-5.jpg/." alt="">
+            <h3 class="title">Wedding Events</h3>
+            <div class="icons">
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-share"></a>
+                <a href="#" class="fas fa-eye"></a>
+            </div>
+            </a>
+        </div>
+
+        <div class="box">
+            <a href="djconcerts">
+            <img src="../static/images/g-6.jpg/." alt="">
+            <h3 class="title">Festival Events</h3>
+            <div class="icons">
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-share"></a>
+                <a href="#" class="fas fa-eye"></a>
+            </div>
+            </a>
+        </div>
+
+        <div class="box">
+            <a href="djconcerts">
+            <img src="../static/images/g-7.jpg/." alt="">
+            <h3 class="title">Weekend Parties</h3>
+            <div class="icons">
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-share"></a>
+                <a href="#" class="fas fa-eye"></a>
+            </div>
+            </a>
+        </div>
+
+        <div class="box">
+            <a href="djconcerts">
+            <img src="../static/images/g-8.jpg/." alt="">
+            <h3 class="title">GetTogether Events</h3>
+            <div class="icons">
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-share"></a>
+                <a href="#" class="fas fa-eye"></a>
+            </div>
+            </a>
+        </div>
+
+        <div class="box">
+            <a href="djconcerts">
+            <img src="../static/images/g-9.jpg/." alt="">
+            <h3 class="title">Anniversary Events</h3>
+            <div class="icons">
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-share"></a>
+                <a href="#" class="fas fa-eye"></a>
+            </div>
+            </a>
+        </div>
+
+    </div>
+
+</section>
+
+</body>
+</html>
